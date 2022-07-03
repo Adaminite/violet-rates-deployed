@@ -26,7 +26,6 @@ class Navbar extends React.Component{
             <nav className = "my-navbar bg-dark">
                 <ul style = {{margin: 0, padding: 0}} className ="left-items" >
                     <Link style={linkInlineStyle} to = "/"> Home </Link>
-                    <Link style={linkInlineStyle} to = "/about"> About </Link>
                     <Link style={linkInlineStyle} to = "/reviews"> Reviews </Link>
                     <Link style = {linkInlineStyle} to ="/addlocation"> Add Location</Link>
                 </ul>
